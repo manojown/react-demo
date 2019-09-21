@@ -1,4 +1,4 @@
-# https://manojown.github.io/react-demo/
+# https://github.com/manojown/react-demo.git
 
 ### Start Development
 
