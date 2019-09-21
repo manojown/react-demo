@@ -1,10 +1,10 @@
-# https://manojown.github.io/React-App-calculator/
+# https://manojown.github.io/react-demo/
 
 ### Start Development
 
 ```bash
-git clone https://github.com/manojown/React-App-calculator.git
-cd React-App-calculator
+git clone https://github.com/manojown/react-demo.git
+cd react-demo
 npm i
 npm start
 ```
@@ -13,15 +13,19 @@ npm start
 
 `npm test`
 ```
-PASS  src/App.test.js
-PASS  src/app/calculator/calculator.test.js
-PASS  src/app/_shared/components/Header/header.test.js
-PASS  src/app/_shared/helpers/helper.test.js
+ PASS  src/app/jobs-portal/components/JobCard/JobCard.test.jsx
+ PASS  src/app/App.test.jsx
+ PASS  src/app/jobs-portal/components/JobListing/JobListing.test.jsx
+ PASS  src/app/jobs-portal/components/Search/Search.test.jsx
+ PASS  src/app/_shared/components/ErrorBoundries/ErrorBoundries.test.jsx
+ PASS  src/App.test.js
+ PASS  src/app/_shared/components/Header/Header.test.jsx
+ PASS  src/app/_shared/helpers/Utility.test.jsx
 
-Test Suites: 4 passed, 4 total
-Tests:       13 passed, 13 total
+Test Suites: 8 passed, 8 total
+Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        4.968s
+Time:        6.324s, estimated 8s
 Ran all test suites.
 ```
 
@@ -37,7 +41,7 @@ src
 |   app
 |    |   _shared # shared components, services, constants, redux, etc.
 |    |   models # object classes or interfaces
-|    |   calculator # a calculator module
+|    |   job-portal # which hold all job components
 |    |   helper # a utility usefull function
 |   assets # static assets, images, icons, logos, etc.
 |    |   icons
