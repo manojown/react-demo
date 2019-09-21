@@ -31,7 +31,6 @@ Ran all test suites.
 
 ## Other dev usefull commands
 `npm run es-lint`
-`npm run prettier`
 `npm run fix-code`
 
 ### Folder Structure
