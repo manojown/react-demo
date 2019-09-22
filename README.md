@@ -8,6 +8,12 @@ also added expiring job function in helper/utility.jsx which help to show a job 
 create .env file
 Add envirnment REACT_APP_URLIS=YOUR-API-URL
 
+## setup with testing
+
+```
+    npm run setup
+```
+
 ### Start Development
 
 ```bash
