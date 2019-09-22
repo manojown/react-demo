@@ -1,4 +1,12 @@
-# https://github.com/manojown/react-demo.git
+## assumption
+
+confused for expiring jobs so add expire job functionality and
+also added expiring job function in helper/utility.jsx which help to show a job which expire by tommorow .
+
+## .env
+
+create .env file
+Add envirnment REACT_APP_URLIS=YOUR-API-URL
 
 ### Start Development
 
@@ -12,6 +20,7 @@ npm start
 ### Test Development
 
 `npm test`
+
 ```
  PASS  src/app/jobs-portal/components/JobCard/JobCard.test.jsx
  PASS  src/app/App.test.jsx
@@ -30,6 +39,7 @@ Ran all test suites.
 ```
 
 ## Other dev usefull commands
+
 `npm run es-lint`
 `npm run fix-code`
 
